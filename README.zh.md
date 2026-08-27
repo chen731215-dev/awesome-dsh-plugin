@@ -1,4 +1,4 @@
-# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![插件数量](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json&label=%E6%8F%92%E4%BB%B6)
+﻿# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![插件数量](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json&label=%E6%8F%92%E4%BB%B6)
 
 [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-zh.png)](https://awesome-dsh-plugin.com/zh/)
 
@@ -935,7 +935,10 @@ dsh plugin --profile web add dshmarket
 - [jitengfei/dsh-whale-arcade](https://github.com/jitengfei/dsh-whale-arcade) — 浏览器本地运行的悬浮鲸鱼游戏中心，包含三款积分游戏和海洋主题五子棋，适合等待 Agent 时随手游玩。
 - [william-jin-cmu/dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) — 用户与 agent 双向表情贴纸互动。
 - [vlln/whale-girl](https://github.com/vlln/whale-girl) — 桌面宠物（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍。
-- [zoahdev/dsh-pet-evolve](https://github.com/zoahdev/dsh-pet-evolve) — 会随 agent 成长的宠物：真实信号（已验证规则/会话/工具调用/压缩）驱动 5 阶段进化、镜像 agent 状态、一键导出成长分享卡。零依赖、全本地。
+
+- [chen731215-dev/dsh-tavern-v2](https://github.com/chen731215-dev/dsh-tavern-v2) — 酒馆角色扮演插件：导入角色卡即可开始角色扮演，支持多角色卡/多世界书/可切换预设/暗色主题/记忆总结/关系网/剧情选项。PolyForm-Noncommercial-Copyleft-1.0.0 协议。
+- [chen731215-dev/dsh-muv-table](https://github.com/chen731215-dev/dsh-muv-table) — 酒馆伴生插件：MUV 变量表格编辑器。将角色卡变量渲染为结构化表格，Agent 直接编辑表格即可生成正确格式的 `<UpdateVariable>` 块，彻底避免 DeepSeek 漏变量格式。需配合 dsh-tavern-v2 使用。
+- [chen731215-dev/dsh-muv-engine](https://github.com/chen731215-dev/dsh-muv-engine) — 酒馆伴生插件：MUV 正则引擎。替代 MagVarUpdate，执行角色卡正则脚本、追踪变量状态、渲染 iframe 状态栏。依赖 dsh-muv-table。- [zoahdev/dsh-pet-evolve](https://github.com/zoahdev/dsh-pet-evolve) — 会随 agent 成长的宠物：真实信号（已验证规则/会话/工具调用/压缩）驱动 5 阶段进化、镜像 agent 状态、一键导出成长分享卡。零依赖、全本地。
 - [xiaoshihou514/dsh-desktop-pet](https://github.com/xiaoshihou514/dsh-desktop-pet) — 鲸鱼娘桌宠，桌面端！
 - [Moeblack/deepseek-manners](https://github.com/Moeblack/deepseek-manners) — 给每次消息后注入感谢语，做个有礼貌的人。
 - [HuanLinOTO/dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) — 模型生成时弹出小游戏菜单（wordle/消消乐，可扩展）。
@@ -985,3 +988,4 @@ dsh plugin --profile web add dshmarket
 本项目是社区维护的索引。插件由各自作者开发与维护，收录不构成背书，亦不对任何插件的安全性、质量或维护状态作出保证。安装插件即在你的机器上运行第三方代码——请自行审阅源码、风险自担。本项目与 DeepSeek 无隶属关系。
 
 本仓库的 issue 只处理清单与网站本身。插件市场界面里的问题请提到 [dsh-market](https://github.com/dsh-market/dsh-market/issues)；`dsh` 本体的问题请提到 [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness/issues)；某个插件的 bug 请到该插件自己的仓库提。
+

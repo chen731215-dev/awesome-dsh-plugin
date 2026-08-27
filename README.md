@@ -1,4 +1,4 @@
-# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)
+﻿# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)
 
 [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)
 
@@ -935,7 +935,10 @@ dsh plugin --profile web add dshmarket
 - [jitengfei/dsh-whale-arcade](https://github.com/jitengfei/dsh-whale-arcade) - Floating, browser-local whale arcade with three score games and ocean-themed Gomoku for breaks while waiting on the agent.
 - [william-jin-cmu/dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) - Bidirectional sticker reactions between user and agent.
 - [vlln/whale-girl](https://github.com/vlln/whale-girl) - Desktop pet (QQ-pet style): floats in the corner, draggable, feedable, playable.
-- [zoahdev/dsh-pet-evolve](https://github.com/zoahdev/dsh-pet-evolve) - The pet that grows with your agent: 5 evolution stages earned from real signals (verified rules, completed sessions, tool calls, compactions), agent-state mirroring, and one-click growth share cards. Zero dependencies, 100% local.
+
+- [chen731215-dev/dsh-tavern-v2](https://github.com/chen731215-dev/dsh-tavern-v2) — Tavern roleplay plugin: import character cards to start roleplaying. Multi-card/worldbook/preset support, dark theme, memory summary, relationship graph, plot options. PolyForm-Noncommercial-Copyleft-1.0.0.
+- [chen731215-dev/dsh-muv-table](https://github.com/chen731215-dev/dsh-muv-table) — Tavern companion: MUV variable table editor. Renders character card variables as structured tables, agent edits directly to generate correct `<UpdateVariable>` blocks. Requires dsh-tavern-v2.
+- [chen731215-dev/dsh-muv-engine](https://github.com/chen731215-dev/dsh-muv-engine) — Tavern companion: MUV regex engine. Replaces MagVarUpdate, executes card regex scripts, tracks variable state, renders iframe status bars. Depends on dsh-muv-table.- [zoahdev/dsh-pet-evolve](https://github.com/zoahdev/dsh-pet-evolve) - The pet that grows with your agent: 5 evolution stages earned from real signals (verified rules, completed sessions, tool calls, compactions), agent-state mirroring, and one-click growth share cards. Zero dependencies, 100% local.
 - [xiaoshihou514/dsh-desktop-pet](https://github.com/xiaoshihou514/dsh-desktop-pet) - DSH pet, on the desktop!
 - [Moeblack/deepseek-manners](https://github.com/Moeblack/deepseek-manners) - Append a thank-you note after every message. Mind your manners.
 - [HuanLinOTO/dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) - Pops up a mini-game menu (wordle, match-3, extensible) while the model generates.
@@ -986,3 +989,4 @@ Listed here? Show it off:
 This is a community-maintained index. Plugins are developed and maintained by their respective authors; listing here is not an endorsement, and no guarantees are made about any plugin's safety, quality, or maintenance. Installing a plugin runs third-party code on your machine — review the source and install at your own risk. This project is not affiliated with DeepSeek.
 
 Issues here are for the list and its website only. Problems inside the plugin market UI go to [dsh-market](https://github.com/dsh-market/dsh-market/issues); problems with `dsh` itself go to [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness/issues); a bug in a plugin goes to that plugin's own repository.
+
